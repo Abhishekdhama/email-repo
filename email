@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/Abhishekdhama/email-repo.git
+echo '{"email": "23f2000762@ds.study.iitm.ac.in"}' > email.json
+git add email.json
+git commit -m "Add email.json with email value"
+git branch -M main
+git push -u origin main
